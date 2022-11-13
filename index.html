@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/Kude/style.css" />
+    <title>Jens Kröger</title>
+  </head>
+  <body class="font-monospace">
+    <!--Navigation-->
+    <nav class="navbar navbar-expand bg-info sticky-top">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navAbstand">
+          <li class="nav-item active">
+            <a class="nav-link" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Leistungen">Leistungen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Showcase-->
+    <div id="Home">
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="/Kude/img/Group 62.png"
+            alt="First slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="/Kude/img/Group 66.png"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="/Kude/img/Group 67.png"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--Leistungen-->
+ 
+    <div class="bgLeistungen mt-2 mb-2" id="Leistungen">
+    <div class="leistungenPadding">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm pt-5">
+            <div class="card" style="width: 20rem">
+              <img
+                class="card-img-top"
+                src="/Kude/img/Group 61.png"
+                alt="Card image cap"
+              />
+              <div class="card-body size">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="" class="btn btn-info">Weiterlesen </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm pt-5">
+            <div class="card" style="width: 20rem">
+              <img
+                class="card-img-top"
+                src="/Kude/img/Group 61.png"
+                alt="Card image cap"
+              />
+              <div class="card-body size">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="" class="btn btn-info">Weiterlesen </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm pt-5">
+            <div class="card" style="width: 20rem">
+              <img
+                class="card-img-top"
+                src="/Kude/img/Group 61.png"
+                alt="Card image cap"
+              />
+              <div class="card-body size">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+              </p>
+              <a href="" class="btn btn-info">Weiterlesen </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Unser Unternehmen-->
+  <div class="bg-dark mt-5" id="About">
+  <div class="container-fluid p-5 text-light">
+    <div class="row">
+      <div class="col-sm abstandTop">
+        <h1>Unser Unternehmen</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adi
+          pisicing elit. Fugiat, rerum quod laboriosam inven
+          tore architecto quo totam quidem iusto quasi, in eo
+          s magnam saepe voluptate animi? Qui ipsam beata
+          e ducimus adipisci. Lorem sd 
+          ipsum dolor sit amet consectetur adipisicing elit
+          . Itaque magnam, atque earum nobis.iodshfjposidf öosiölskjföosidf söaoisöoidjfosdi soisoifs sofi doijs i fjösoiisdfj.
+        </p>
+        <a href="#" class="btn btn-primary">Weiterlesen</a>
+      </div>
+      <div class="col-sm margin10">
+        <img src="/Kude/img/auto.png" class="w-75">
+      </div>
+  </div>
+  </div>
+</div>
+    <!--Kontakt-->
+    <!-- Formular für eine Email-->
+    <div id="Kontakt">
+    <div class="container1" >
+      <form action="action_page.php">
+        <label for="email"> E-Mail</label>
+        <input
+          type="email"
+          id="email"
+          name="E-mail"
+          placeholder="Deine E-mail.."
+        />
+
+        <label for="fname">Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Dein Name.."
+        />
+
+        <label for="subject">Nachricht</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Schreiben sie was shönes.."
+          style="height: 200px"
+        ></textarea>
+        <input type="submit" value="Nachricht Senden" />
+    </div>
+  </div>
+
+  <!--Karte-->
+
+  <div class="">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6831.342574672207!2d8.438820668447466!3d52.745827288113944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b74a81e71ca519%3A0x4f881e8cffcaad18!2sSchachtelhalmweg%201%2C%2049424%20Goldenstedt!5e0!3m2!1sde!2sde!4v1666883232837!5m2!1sde!2sde" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+    <!--Der Footer-->
+    <footer class="container-fluid black text-center text-p">
+      <div class="p-5">
+        <a href="#" class="text-info link p-2">Datenschutz</a>
+        <a href="#" class="text-info link p-2">Impressum</a>
+        <p>Made by Mouhmad Khalel</p>
+      </div>
+    </footer>
+    <!--Code für Bootstrap-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

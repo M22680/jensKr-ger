@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: black;
+}
+.leistungenPadding {
+  padding: 100px;
+}
+.bgLeistungen {
+  background-image: url(/Kude/img/ripped-paper-green-background-colorful-handmade-craft.jpg);
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #3772ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+  margin: 5%;
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+}
+.size {
+  height: 200px;
+}
+.margin10 {
+  margin-left: 13%;
+}
+.abstandTop {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.black {
+  background: black;
+}
+.link {
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
